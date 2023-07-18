@@ -17,7 +17,7 @@ export default function Main() {
 
   return (
     <div className="container">
-      <h1 className="title text-light">Quiz Application</h1>
+      <h1 className="title text-light">Quizyyy</h1>
       <ol>
         <li>You will be asked question one after the other.</li>
         <li>10 points will be awarded for each correct answer.</li>
