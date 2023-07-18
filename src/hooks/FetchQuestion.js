@@ -21,7 +21,7 @@ export const useFetchQuestion = () => {
     (async () => {
       try {
         const [{ questions, answers }] = await getServerData(
-          `${process.env.REACT_APP_SERVER_HOSTNAME}/api/questions`,
+          "https://quiz-app-server-eta.vercel.app/api/questions",
           (data) => data
         );
         // console.log(q);

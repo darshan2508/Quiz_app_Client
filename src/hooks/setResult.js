@@ -24,7 +24,7 @@ export const usePublishResult = (resultData) => {
     try {
       if (result !== [] && !username) throw new Error("Couldn't get Result");
       await postServerData(
-        `${process.env.REACT_APP_SERVER_HOSTNAME}/api/result`,
+        "https://quiz-app-server-eta.vercel.app/api/result",
         resultData,
         (data) => data
       );
